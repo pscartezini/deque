@@ -16,10 +16,10 @@ public class Gatilho2 : MonoBehaviour {
 		}
 	}
 
-	public void change(){
+	public void change(bool status){
 		if(permission){
-			doIt=true;
-			permission=false;
+			doIt=status;
+			//permission= false;
 		}
 
 	}
