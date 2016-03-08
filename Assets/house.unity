@@ -540,7 +540,7 @@ Light:
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.17
+  m_Intensity: 0
   m_Range: 60
   m_SpotAngle: 179
   m_CookieSize: 10
@@ -2980,6 +2980,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   permission: 1
   doIt: 0
+  timer: 0
+  CanvasObject: {fileID: 904195848}
+  barraDeProgresso: {fileID: 891079900}
 --- !u!54 &1767230547
 Rigidbody:
   m_ObjectHideFlags: 0
