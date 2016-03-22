@@ -22,7 +22,7 @@ public class Gatilho : MonoBehaviour {
 			if(timer>0){
 				   CanvasObject.enabled = true;
 			}
-			Debug.Log("Looking at"+timer);
+			//Debug.Log("Looking at"+timer);
 			barraDeProgresso.fillAmount = (timer*1)/3;
 			if(timer>=3){
 				CanvasObject.enabled = false;
@@ -33,7 +33,7 @@ public class Gatilho : MonoBehaviour {
 			 
 		}
 		if(!doIt){
-			Debug.Log("Looking away");
+			//Debug.Log("Looking away");
 			timer= 0;
 				CanvasObject.enabled = false;
 		}
